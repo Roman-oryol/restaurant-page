@@ -1,3 +1,5 @@
+@import '../style.css';
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -11,5 +13,5 @@
 }
 
 .header__nav-btn {
-  font-family: var(--fo);
+  font-family: var(--font-text);
 }
