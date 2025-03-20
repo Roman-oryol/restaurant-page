@@ -1,24 +1,24 @@
 .text-sm {
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-md);
 }
 
 .text-md {
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-sm);
 }
 
 .text-lg {
-  font-size: 24px;
-  line-height: 1.2;
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-sm);
 }
 
 .text-xl {
-  font-size: 36px;
-  line-height: 1.2;
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-sm);
 }
 
 .text-xxl {
-  font-size: 64px;
-  line-height: 1.2;
+  font-size: var(--font-size-xxl);
+  line-height: var(--line-height-sm);
 }
