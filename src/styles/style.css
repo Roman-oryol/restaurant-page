@@ -1,4 +1,13 @@
 @import './base/normalize.css';
 @import './base/reset.css';
 @import './base/fonts.css';
+
 @import './tokens/tokens.css';
+@import './tokens/typography.css';
+
+@import './components/container.css';
+@import './components/header.css';
+
+html {
+  font-size: 62.5%;
+}

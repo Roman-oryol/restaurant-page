@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header__nav-btn {
+  font-family: var(--fo);
+}
