@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/inter/inter-regular.woff2') format('woff2'),
+    url('../../assets/fonts/inter/inter-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/inter/inter-bold.woff2') format('woff2'),
+    url('../../assets/fonts/inter/inter-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../../assets/fonts/playfair-display/playfair-display-regular.woff2')
+      format('woff2'),
+    url('../../assets/fonts/playfair-display/playfair-display-regular.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../../assets/fonts/playfair-display/playfair-display-medium.woff2')
+      format('woff2'),
+    url('../../assets/fonts/playfair-display/playfair-display-medium.woff')
+      format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../../assets/fonts/plus-jakarta-sans/plus-jakarta-sans-semi-bold.woff2')
+      format('woff2'),
+    url('../../assets/fonts/plus-jakarta-sans/plus-jakarta-sans-semi-bold.woff')
+      format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
