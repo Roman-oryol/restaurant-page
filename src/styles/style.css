@@ -6,4 +6,14 @@
 @import './tokens/typography.css';
 
 @import './components/container.css';
-@import './components/header.css';
+@import './components/buttons.css';
+@import './layout/header.css';
+@import './pages/home-page.css';
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  min-width: 1100px;
+}
