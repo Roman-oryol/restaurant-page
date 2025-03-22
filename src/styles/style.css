@@ -9,6 +9,7 @@
 @import './components/buttons.css';
 @import './layout/header.css';
 @import './pages/home-page.css';
+@import './pages/products-page.css';
 
 html {
   height: 100%;

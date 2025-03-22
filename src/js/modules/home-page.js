@@ -24,7 +24,7 @@ const stats = [
   },
 ];
 
-function homePage() {
+function renderHomePage() {
   const container = document.getElementById('content');
 
   const main = document.createElement('main');
@@ -97,4 +97,4 @@ function createStatEl(value, label) {
   return statEl;
 }
 
-export default homePage;
+export default renderHomePage;
