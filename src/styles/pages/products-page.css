@@ -2,3 +2,14 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+.products h1 {
+  margin-bottom: 8px;
+  opacity: 0.56;
+  text-align: center;
+}
+
+.products h2 {
+  font-family: var(--font-heading-primary);
+  text-align: center;
+}
