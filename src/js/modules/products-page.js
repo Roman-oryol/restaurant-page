@@ -1,21 +1,19 @@
-function createTitles() {
-  const title = document.createElement('h1');
-  const subTitle = document.createElement('h2');
-
-  title.textContent = 'Our products';
-  title.classList.add('text-lg');
-  subTitle.textContent = 'From Top Quality Materials';
-  subTitle.classList.add('text-xl');
-
-  return [title, subTitle];
+function createTitle(level, className, text) {
+  const title = document.createElement(level);
+  title.textContent = text;
+  title.classList.add(className);
+  return title;
 }
 
 function renderProductsPage() {
   const container = document.getElementById('content');
   const main = document.createElement('main');
+  const title = createTitle('h1', 'text-lg', 'Our products');
+  const subTitle = createTitle('h2', 'text-xl', 'From Top Quality Materials');
+
   main.classList.add('container', 'products');
 
-  main.append(...createTitles());
+  main.append(title, subTitle);
   container.appendChild(main);
 }
 
