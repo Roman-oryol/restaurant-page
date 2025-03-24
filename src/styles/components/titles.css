@@ -1,0 +1,9 @@
+.title {
+  margin-bottom: 8px;
+  opacity: 0.56;
+}
+
+.subtitle {
+  margin-bottom: 80px;
+  font-family: var(--font-heading-primary);
+}

@@ -9,11 +9,16 @@
   background-color: var(--color-white);
 }
 
+.header__logo-btn:disabled {
+  cursor: auto;
+}
+
 .header button {
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .header__nav {
@@ -25,6 +30,7 @@
   position: relative;
   padding: 10px 20px;
   font-family: var(--font-text);
+  transition: background-color 0.3s, color 0.3s;
 
   &::after {
     content: '';
@@ -52,5 +58,16 @@
     &::after {
       background-color: var(--color-brown);
     }
+  }
+}
+
+.header .header__nav-btn--active {
+  background-color: var(--color-brown);
+  color: var(--color-white);
+  cursor: auto;
+  transition: background-color 0.3s, color 0.3s;
+
+  &::after {
+    content: none;
   }
 }

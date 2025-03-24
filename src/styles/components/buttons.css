@@ -2,7 +2,7 @@
   font-family: var(--font-heading-primary);
   line-height: var(--line-height-lg);
   color: var(--color-white);
-  /* text-transform: uppercase; */
+  text-decoration: none;
   background-color: var(--color-brown);
   border: none;
   outline: none;
