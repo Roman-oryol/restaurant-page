@@ -39,6 +39,8 @@ function handlePageChange(pageName, clickedBtn) {
     content.classList.remove('fade-out');
     content.classList.add('fade-in');
 
+    window.scrollTo(0, 0);
+
     setTimeout(() => {
       content.classList.remove('fade-in');
     }, 500);
