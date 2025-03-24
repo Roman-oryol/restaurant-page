@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="header container text-md">
-      <button class="header__logo-btn">
+      <button class="header__logo-btn" disabled>
         <img
           src="./assets/img/logo.svg"
           width="40"
@@ -16,9 +16,20 @@
         />
       </button>
       <nav class="header__nav">
-        <button class="header__nav-btn" type="button">Products</button>
-        <button class="header__nav-btn" type="button">About us</button>
-        <button class="header__nav-btn" type="button">Testimonial</button>
+        <button
+          class="header__nav-btn header__nav-btn--active"
+          data-page="home"
+          type="button"
+          disabled
+        >
+          Home
+        </button>
+        <button class="header__nav-btn" data-page="products" type="button">
+          Products
+        </button>
+        <button class="header__nav-btn" data-page="about" type="button">
+          About us
+        </button>
       </nav>
     </header>
     <div id="content"></div>
